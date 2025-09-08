@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { FaGraduationCap, FaCertificate, FaCode, FaGlobe, FaDatabase, FaTools } from 'react-icons/fa';
-import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaInstagram, FaEnvelope, FaPhoneAlt } from 'react-icons/fa';
+//import { MdContactPhone, MdContactMail } from "react-icons/md";
 
 const Portfolio = () => {
   const [activeSection, setActiveSection] = useState('home');
@@ -380,30 +381,47 @@ const Portfolio = () => {
             <div className="mt-12 text-center mt-8">
               <h3 className="text-xl font-semibold mb-6">Or connect with me on</h3>
               <div className="flex justify-center space-x-6">
-                <a 
-                  href="https://github.com/subuddhimounika" 
-                  className="bg-purple-600 text-white hover:bg-purple-700 transition duration-300 rounded-full p-3 flex items-center justify-center"
-                  aria-label="GitHub"
+                  <a 
+                    href="https://github.com/subuddhimounika" 
+                    className="bg-purple-600 text-white hover:bg-purple-700 transition duration-300 rounded-full p-3 flex items-center justify-center"
+                    aria-label="GitHub"
+                  >
+                    <FaGithub className="h-6 w-6" />
+                  </a>
+                  
+                  <a 
+                    href="https://www.linkedin.com/in/subuddhi-mounika/" 
+                    className="bg-blue-600 text-white hover:bg-blue-700 transition duration-300 rounded-full p-3 flex items-center justify-center"
+                    aria-label="LinkedIn"
+                  >
+                    <FaLinkedin className="h-6 w-6" />
+                  </a>
+                  
+                  <a 
+                    href="https://www.instagram.com/subuddhimounika/?next=%2F" 
+                    className="bg-gradient-to-r from-purple-600 to-pink-600 text-white hover:from-purple-700 hover:to-pink-700 transition duration-300 rounded-full p-3 flex items-center justify-center"
+                    aria-label="Instagram"
+                  >
+                    <FaInstagram className="h-6 w-6" />
+                  </a>
+                
+                  <a 
+                  href="https://mail.google.com/mail/?view=cm&fs=1&to=subuddhimounika@gmail.com" 
+                  className="bg-green-600 text-white hover:bg-green-700 transition duration-300 rounded-full p-3 flex items-center justify-center"
+                  aria-label="Email"
                 >
-                  <FaGithub className="h-6 w-6" />
+                  <FaEnvelope className="h-6 w-6" />
                 </a>
                 
-                <a 
-                  href="https://www.linkedin.com/in/subuddhi-mounika/" 
-                  className="bg-blue-600 text-white hover:bg-blue-700 transition duration-300 rounded-full p-3 flex items-center justify-center"
-                  aria-label="LinkedIn"
-                >
-                  <FaLinkedin className="h-6 w-6" />
-                </a>
-                
-                <a 
-                  href="https://www.instagram.com/subuddhimounika/?next=%2F" 
-                  className="bg-gradient-to-r from-purple-600 to-pink-600 text-white hover:from-purple-700 hover:to-pink-700 transition duration-300 rounded-full p-3 flex items-center justify-center"
-                  aria-label="Instagram"
-                >
-                  <FaInstagram className="h-6 w-6" />
-                </a>
-              </div>
+                  <a 
+                    href="tel:+9398043468" 
+                    className="bg-indigo-600 text-white hover:bg-indigo-700 transition duration-300 rounded-full p-3 flex items-center justify-center"
+                    
+                    aria-label="Phone"
+                  >
+                    <FaPhoneAlt className="h-6 w-6 transform -rotate-5 " />
+                  </a>
+                </div>
             </div>
           </div>
         </div>
