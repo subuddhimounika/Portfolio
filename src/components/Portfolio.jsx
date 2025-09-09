@@ -173,7 +173,9 @@ const Portfolio = () => {
           {/* About Me Content */}
           <div className="max-w-3xl mx-auto text-center mb-16">
             <p className="text-xl text-gray-400">
-              Passionate about technology and innovation, I'm dedicated to creating meaningful software solutions that solve real-world problems.
+              {/* Passionate about technology and innovation, I'm dedicated to creating meaningful software solutions that solve real-world problems. */}
+              {/* Passionate about web development, I focus on creating scalable applications using modern technologies. I enjoy exploring new frameworks, contributing to projects, and improving my problem-solving skills. Currently, I’m looking for opportunities to work on impactful full-stack projects and collaborate with innovative teams. */}
+              Passionate about software development, I focus on creating scalable applications using modern technologies. I enjoy exploring new frameworks, contributing to projects, and improving my problem-solving skills. Currently, I’m looking for opportunities to work on impactful full-stack projects and collaborate with innovative teams.
             </p>
           </div>
           
