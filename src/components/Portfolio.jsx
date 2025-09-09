@@ -413,14 +413,14 @@ const Portfolio = () => {
                   <FaEnvelope className="h-6 w-6" />
                 </a>
                 
-                  <a 
-                    href="tel:+9398043468" 
+                  {/* <a 
+                    href="tel:+1234567890" 
                     className="bg-indigo-600 text-white hover:bg-indigo-700 transition duration-300 rounded-full p-3 flex items-center justify-center"
                     
                     aria-label="Phone"
                   >
                     <FaPhoneAlt className="h-6 w-6 transform -rotate-5 " />
-                  </a>
+                  </a> */}
                 </div>
             </div>
           </div>
